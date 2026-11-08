@@ -14,8 +14,8 @@ This project uses a Convolutional Neural Network (CNN) trained on the MNIST data
 - Display the preprocessed image for inspection.
 
 ## Project Structure
-
-2.MNIST/
+```text
+mnist-digit-recognition/
 │
 ├── app.py
 ├── requirements.txt
@@ -30,27 +30,32 @@ This project uses a Convolutional Neural Network (CNN) trained on the MNIST data
 │   ├── preprocessing.py
 │   └── inference.py
 │
-├── my_images/
-│   └── digit3.png
-│
-└── data/
-
+└── my_images/
+    ├── digit_2.jpg
+    ├── digit_3(tt).png
+    └── digit_3.png
+```
 ## Installation
 
 ### 1. Clone the repository
-git clone <your-repository-url>
-cd 2.MNIST
-
-### 2.Create a virtual environment
+```bash
+git clone https://github.com/NgHoangSon/mnist-digit-recognition
+cd mnist-digit-recognition
+```
+### 2. Create a virtual environment
+```bash
 conda create -n mnist python=3.14
 conda activate mnist
-
-### 3 Install dependencies
+```
+### 3. Install dependencies
+```bash
 pip install -r requirements.txt
-
+```
 ## Usage
+```bash
 python -m streamlit run app.py
-
+```
+Open the URL displayed in the terminal (usually http://localhost:8501).
 ## Model Information
 
 - **Architecture:** Convolutional Neural Network (CNN)
