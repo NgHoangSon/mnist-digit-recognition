@@ -4,6 +4,12 @@ A handwritten digit recognition application built with PyTorch and Streamlit.
 
 This project uses a Convolutional Neural Network (CNN) trained on the MNIST dataset to recognize handwritten digits from 0 to 9.
 
+## Live Demo
+
+Try the application here:
+
+[MNIST Digit Recognition - Live Demo](https://mnist-digit-recognition-shn.streamlit.app/)
+
 ## Features
 
 - Upload handwritten digit images (PNG, JPG, JPEG).
