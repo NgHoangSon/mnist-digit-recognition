@@ -1,0 +1,20 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+
+# Dataset
+data/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Streamlit secrets
+.streamlit/secrets.toml
